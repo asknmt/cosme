@@ -1,0 +1,135 @@
+@media (max-width: 1050px){
+  /*ハンバーガーメニュー*/
+  .drawer-open {
+    width: 8%;
+  }
+  .drawer-content {
+    width: 50%;
+  }  
+  /* アイコンがクリックされたらメニューを表示 */
+  #drawer-check:checked ~ .drawer-content {
+    left: 50%;/* メニューを画面に入れる */
+  }
+  .drawer-item {
+    font-size: 1.4rem;
+  }  
+  /*トップ*/
+  .top {
+    height: 50%;
+  }  
+  .kv-img{
+    height: 520px;
+  }
+  .kv-title {
+    top: 18%;
+    left: 18%;
+  } 
+  /*メッセージ*/
+  .concept,.point,.info {
+    margin-top: 40px;
+    width: 30%;
+  }  
+  .collection {
+    margin-top: 128px;
+    width: 30%;
+  }  
+  .messa-p,.collect-p,.lip-p,.point-p {
+    font-size: 0.9rem;
+  }  
+  .wrap {
+    width: 90%;
+  }
+  .make img {
+    width: 40%;
+    height: 176px;
+  }
+  .concept-wrap::after {
+    top: 800px;
+    height: 30%;
+    width: 90%;
+  }
+  .messa-img {
+    width: 40%;
+    top: 0;
+    left: 400px;
+  }  
+  .messa-title {
+    font-size: 1.1rem;
+    margin: 16px 0;
+  }  
+  .message1,.message2 {
+    width: 48%;
+    margin-top: 24px;
+    z-index: 8;
+  }  
+  .message {
+    width: 90%;
+  }  
+  /*コレクション*/
+  .collect {
+    width: 90%;
+  }  
+  .collect-p,.lip-p {
+    width: 90%;
+  }  
+  .eye-name,.lip-name {
+    width: 90%;
+  }  
+  .eye-name p,.lip-name p{
+    margin: 8px 0;
+    font-size: 1rem;
+  }  
+  .debut-img {
+    width: 40%;
+    top: 296px;
+    left: 400px;
+  }  
+  /*ポイント*/
+  .font {
+    font-size: 1.5rem;
+  }  
+  .point-p {
+    padding: 56px 0;
+  }  
+  .box p {
+    font-size: 1.2rem;
+  }  
+  .box {
+    padding: 24px;
+    width: 90%;
+  }
+  .center-box {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }  
+  .point-back {
+    padding: 64px 0;
+  }
+  
+  /*info*/
+  .info-size {
+    width: 90%;
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }  
+  .news {
+    width: 90%;
+    padding: 40px 0 24px 0;
+  }
+  .news p,.news-view a {
+    font-size: 0.8rem;
+  }
+  .news-img{
+    top: 200px;
+    left: 104px;
+    width: 30%;
+  }
+  /*footer*/
+  .footer img {
+    width: 50%;
+  }  
+  .footer-list a {
+    margin-left: 16px;
+    font-size: 0.5rem;
+  }
+}

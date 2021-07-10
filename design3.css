@@ -1,0 +1,149 @@
+@media (max-width: 670px){
+  /*ハンバーガーメニュー*/
+  .drawer-open span,
+.drawer-open span::before,
+.drawer-open span::after {
+  width: 20px;
+}
+  .drawer-open {
+    width: 12%;
+    height: 40px;
+    right: 16px;
+  }
+  .drawer-item {
+    font-size: 1.2rem;
+  }  
+  .kv-img{
+    height: 320px;
+  }
+  .kv-title {
+    top: 15%;
+    left: 10%;  
+    width: 80%;
+  }
+  /*タイトル*/
+  .concept,.point,.info, .collection {
+    margin-top: 40px;
+    width: 50%;
+  }
+  /*コンセプト*/
+  .make {
+    display: block;
+  }  
+  .make img {
+    width: 70%;
+    height: 176px;
+  }
+  .make-img {
+    margin-top: 152px;
+  }  
+  .make1 {
+    position: relative;
+    z-index: 6;
+  }
+  .make2 {
+    position: absolute;
+    top: 440px;
+    left: 104px;
+    z-index: 5;
+  }
+  .message {
+    display: block;
+  }
+  .message1,.message2 {
+    width: 100%;
+  }  
+  .messa-img {
+    width: 60%;
+    top: -16px;
+    left: 152px;
+  }  
+  .concept-wrap::after {
+    top: 480px;
+    height: 80%;
+    width: 90%;
+  }
+  /*コレクション*/
+  .eye-color,.lip-stick {
+    display: block;
+  } 
+  .lip-color,.eye-collect {
+    width: 100%;
+  }   
+  .paret {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  .collect-p,.lip-p {
+    width: 100%;
+  }  
+  .eye-name,.lip-name {
+    width: 100%;
+    margin-top: 32px;
+  }  
+  .lip {
+    width: 70%;
+    margin-bottom: 32px;
+  }  
+  .lip-stick {
+    text-align: center;
+    margin-top: 64px;
+  }
+  .lip-color {
+    text-align: left;
+  }
+  .debut-img {
+    width: 60%;
+    top: 540px;
+    left: 136px;
+    z-index: 5;
+  }  
+/*point*/
+  .box {
+    display: block;
+    text-align: center;
+    padding: 8px;
+  }
+  .box p {
+    font-size: 1rem;
+  }  
+  .point-box1 img,.point-box2 img,.point-box3 img {
+    width: 70%;
+  }  
+  .point-back {
+    padding: 40px 0;
+  }
+  /*news*/
+  .info-size {
+    margin-top: 8px;
+    width: 100%;
+  }
+  .news {
+    width: 95%;
+    padding: 24px 0 16px 0;
+  }
+  .news p {
+    white-space: pre-line;
+    line-height: 2;
+  }
+  .news-img{
+    top: 200px;
+    left: 152px;
+    width: 60%;
+  }
+ /*footer*/
+    .footer-logo {
+      margin-left: 16px;
+    }
+    .footer img {
+      width: 80%;
+    }  
+    .footer-list ul{
+      margin-right: 16px;
+    }    
+    .footer-list a {
+      margin-left: 8px;
+      font-size: 0.3rem;
+    }
+
+}
