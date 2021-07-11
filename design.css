@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #faf1e6;
-  color: rgb(114, 114, 114);
+  color: rgb(63, 63, 63);
 }
 .nonscroll {
   overflow: hidden;
@@ -199,7 +199,7 @@ header {
   right: 0;
   background-color: #fbe4db;
   width: 80%;
-  height: 60%;
+  height: 65%;
   z-index: -1;
   top: 1200px;
   left: 0;
