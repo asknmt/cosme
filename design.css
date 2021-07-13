@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #faf1e6;
-  color: rgb(63, 63, 63);
+  font-family: "游ゴシック体","貂明朝テキスト","ヒラギノ角ゴ ProN",Arial,sans-serif,"FOT-筑紫B丸ゴシック Std","DNP 秀英丸ゴシック Std"
 }
 .nonscroll {
   overflow: hidden;
